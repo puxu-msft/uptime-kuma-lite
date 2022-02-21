@@ -1,0 +1,23 @@
+/private/
+/out/
+/tmp/
+/data/
+!/data/.gitkeep
+
+.vscode/
+.idea/
+node_modules/
+
+dist/
+dist-ssr/
+
+.DS_Store
+*.local
+
+.env
+
+# for pnpm
+.pnpm-debug.log
+
+# for sqlite3
+/db/*.db
