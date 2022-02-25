@@ -1,15 +1,10 @@
+.vscode/
+.idea/
+
 /private/
 /out/
 /tmp/
-/data/
 !/data/.gitkeep
-
-.vscode/
-.idea/
-node_modules/
-
-dist/
-dist-ssr/
 
 .DS_Store
 *.local
@@ -18,6 +13,11 @@ dist-ssr/
 
 # for pnpm
 .pnpm-debug.log
+node_modules/
 
-# for sqlite3
-/db/*.db
+# front dist
+dist/
+dist-ssr/
+
+# runtime
+/data/
